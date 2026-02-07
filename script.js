@@ -143,7 +143,7 @@ musicToggle.addEventListener("click", () => {
     musicToggle.setAttribute("aria-pressed", "true");
   } else {
     bgMusic.pause();
-    musicToggle.textContent = "Activer une musique douce";
+    musicToggle.textContent = "Je t'aime";
     musicToggle.setAttribute("aria-pressed", "false");
   }
 });
